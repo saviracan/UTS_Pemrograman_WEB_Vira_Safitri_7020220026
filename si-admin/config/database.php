@@ -1,10 +1,10 @@
 <?php
 class Database {
-    private $host = "localhost";
-    private $database_name = "konterku";
-    private $username = "root";
-    private $password = "";
-    public $conn;
+    private $host = "localhost"; // domain
+    private $database_name = "portofolio"; //nama database
+    private $username = "root";//username phpmyadmin
+    private $password = "";//password phpmyadmin
+    public $conn;//alias "koneksi"
 
     public function getConnection(){
         $this->conn = null;
